@@ -1,0 +1,61 @@
+.greetingForm {
+}
+
+.inputAndButtonContainer {
+    display: flex;
+    align-items: center;
+}
+
+.error {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #CC0000;}
+
+.input {
+    width: 100%;
+    outline: 3px solid green;
+    margin-right: 550px;
+}
+
+.input:focus {
+}
+
+.errorInput {
+    outline : 3px solid red;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 4px 12px;
+    margin-left: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #0066CC;
+}
+
+.button:focus {
+}
+
+.button:active {
+}
+
+.button:disabled {
+}
+
+.text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.greeting {
+}
