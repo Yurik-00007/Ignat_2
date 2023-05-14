@@ -42,7 +42,7 @@
 }
 
 .disabled::before {
-    content: "Не активная";
+    content: "";
 }
 
 .secondary {
@@ -55,7 +55,7 @@
 }
 
 .secondary::before {
-    content: "Дополнительная"
+    content: ""
 }
 
 .default {
@@ -63,19 +63,47 @@
 }
 
 .default::before {
-    content: "Дефолтная";
+    content: "";
 }
 
 .red {
     background-color: #CC1439;
 }
 .red::before {
-    content:'Опасность'
+    content:''
 }
 
-.red:hover ,
-.secondary:hover ,
-.default:hover  ,
+.red:hover {
+    width: 154px;
+    border-radius: 3px;
+    padding: 5px 24px;
+
+    background-color: #ef5555;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+.secondary:hover {
+    width: 154px;
+    border-radius: 3px;
+    padding: 5px 24px;
+    background-color: #71a4ee;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+.default:hover  {
+    width: 154px;
+    border-radius: 3px;
+    padding: 5px 24px;
+    background-color: #71a4ee;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
 .disabled:hover  {
 
     width: 154px;
@@ -88,15 +116,16 @@
 }
 
 .default:hover::before {
-    content: "При наведении";
+    content: "";
+
 }
 
 .red:hover::before {
-    content: "При наведении";
+    content: "";
 }
 
 .secondary:hover::before {
-    content: "При наведении";
+    content: "";
     color: #1769C9;
     background-color: #E6F0FA;
     border-radius: 3px;
@@ -106,11 +135,11 @@
 
 
 .default:active::before {
-    content: "При нажатии";
+    content: "";
 }
 
 .secondary:active::before {
-    content: "При нажатии";
+    content: "";
     border: 1px solid #1769C9;
     color: #1769C9;
     background-color: #E6F0FA;
@@ -118,9 +147,9 @@
 }
 
 .red:active::before {
-    content: "При нажатии";
+    content: "";
 }
 
 .button:disabled::before {
-    content: "Не активная";
+    content: "";
 }

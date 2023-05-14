@@ -1,4 +1,7 @@
 .radio {
+
+
+    background-color:  black;
 }
 
 .radio::before {
@@ -9,7 +12,10 @@
 }
 
 .label {
+    display: block;
+    margin-bottom: 10px;
 }
 
 .options {
+margin-right: 5px;
 }
